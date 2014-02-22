@@ -15,7 +15,6 @@ Features:
 - We offer free support for implementation of the platform 
 - We are Open Source and available on GitHub
 
-<<<<<<< HEAD
 Installation
 ============
 1. Set up db details in to /application/congigs/application.ini
@@ -42,6 +41,5 @@ Zend Framework requires following vhost sample configuration
 	</VirtualHost>
 
 =======
->>>>>>> d896fd4fbb15ae5a6c9ff7e878b700cd0ba68a03
 
 A Product from Tiny Creations
