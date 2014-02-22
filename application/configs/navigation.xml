@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+    <nav>
+        <label>Home</label>
+        <controller>index</controller>
+        <action>index</action>
+        <pages>
+            <hunt>
+                <label>Hunt</label>
+                <controller>hunt</controller>
+                <action>index</action>
+            </hunt>
+            <leaderboard>
+                <label>Leaderboard</label>
+                <controller>hunt</controller>
+                <action>leaderboard</action>
+            </leaderboard>
+            <aboutus>
+                <label>About Us</label>
+                <controller>hunt</controller>
+                <action>leaderboard</action>
+                <pages>
+                    <thehunt>
+                        <label>The Hunt</label>
+                        <controller>aboutus</controller>
+                        <action>hunt</action>
+                    </thehunt>
+                    <theteam>
+                        <label>The Team</label>
+                        <controller>aboutus</controller>
+                        <action>team</action>
+                    </theteam>
+                    <thefest>
+                        <label>The Fest</label>
+                        <controller>aboutus</controller>
+                        <action>fest</action>
+                    </thefest>
+
+                   
+                </pages>
+            </aboutus>
+        </pages>
+    </nav>
+</configdata>

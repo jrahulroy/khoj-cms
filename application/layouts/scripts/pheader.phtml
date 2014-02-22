@@ -1,0 +1,15 @@
+<div id="smoothmenu1" class="ddsmoothmenu"><!-- The Menu -->
+    <?php
+    $this->navigation()->menu(); //->setPartial(array('mynav.phtml','default'));
+
+    echo $this->navigation()->menu();
+    //echo var_dump($this->navigation());
+    //->setOnlyActiveBranch(true)
+    // ->setRenderParents(false)
+    //->setMinDepth(1)->render(); 
+    ?>
+    <br style="clear: left" />
+</div>
+
+<div id="logo"><a href="/"><img src="<?php echo $this->baseUrl('images/logo.png'); ?>" alt="logo"/></a>
+</div>

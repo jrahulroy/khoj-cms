@@ -1,0 +1,21 @@
+
+<!-- 
+
+// No Need to Look above this for Hint
+
+<?php echo $this->question['schint']; ?>
+
+// No Need to look below this for Hint
+
+-->
+
+<?php echo '<p>' . $this->question['desc'] . '</p>'; ?>
+
+<img class="bigimage" src="<?php echo $this->baseUrl('images/questions/' . $this->question['image'] . '.jpg'); ?>" alt="image" />
+<form action="/hunt/question/no/<?php echo $this->question['questionno']; ?>" class="aligncenter" method="post">
+    <label>Answer :</label><input type="text" name="answer" ><br/>
+    <input  type="submit" /><br />
+    <a href="https://www.facebook.com/KhojTheHunt.tk<?php //echo $this->baseUrl('/forum/discuss/no/' . $this->question['questionno']);  ?>" target="_blank">Check for hint in Facebook</a>
+</form>
+
+

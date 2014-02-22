@@ -1,0 +1,16 @@
+<table>
+    <?php
+    echo "<tr>";
+    foreach ($this->data as $item) {
+        echo "<td>" . $item['date'] . "</td>";
+        echo "<td>" . $item['subject'] . "</td>";
+        echo "<td>";
+        if ($item['status'])
+            echo " - present";
+        else
+            echo " - absent";
+        echo "</td>";
+    }
+    echo "</tr>"
+    ?>
+</table>

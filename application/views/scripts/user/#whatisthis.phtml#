@@ -1,0 +1,7 @@
+
+
+<img class="bigimage" src="<?php echo $this->baseUrl('images/whatisthis.png');?>" alt="image" />
+<img class="bigimage" src="<?php echo $this->baseUrl('images/whatisthis2.png');?>" alt="image" />
+
+
+

@@ -1,0 +1,26 @@
+<div class="sidebartitle">
+    People in Same Level
+</div>
+<div class="sidephotoitem">
+    <ul>
+        <?php
+        $i = 1;
+        shuffle($this->people);
+        foreach ($this->people as $pep) {
+            if ($i % 3 != 0) {
+                ?>
+                <li><img class="sidephotoimage sidephotospace" src="http://graph.facebook.com/<?php echo $pep['fbusername'] ?>/picture?type=normal" alt="Photo" /></li>
+            <?php
+            } else {
+                ?>
+                <li><img class="sidephotoimage " src="http://graph.facebook.com/<?php echo $pep['fbusername'] ?>/picture?type=normal" alt="Photo" /></li>
+                <?php
+            }
+            $i++;
+            if ($i == 9)
+                break;
+        }
+        ?>
+    </ul>
+
+</div>

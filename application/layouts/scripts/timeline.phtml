@@ -1,0 +1,38 @@
+<?php
+$uri = "http://khojthehunt.tk" . Zend_Controller_Front::getInstance()->getRequest()->getRequestUri();
+$khojconfig = Zend_Registry::get('khoj-config');
+// or using userAgent view helper:
+//$uri = $this->userAgent()->getServerValue('request_uri');
+?><div class="sidebartitle">
+    Stuck - Share with Friends
+</div>
+<div class="sidebartextbox">
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_delicious_large' displayText='Delicious'></span>
+    <span class='st_linkedin_large' displayText='LinkedIn'></span>
+    <span class='st_email_large' displayText='Email'></span>
+</div>
+<div class="sidebartitle">
+    Feedback
+</div>
+<div class="sidebaropts">
+    <ul>
+        <li>Your feedback is important to us! </li>
+        <li>Would you be willing to give us a short feedback?</li><br /><br />
+        <a class="button" target="_blank" href="/aboutus/feedback"><span>Feedback</span></a>
+
+    </ul>
+</div>
+
+<div class="sidebartitle">
+    Like Khoj
+</div>
+<div class="sidebartextbox">
+    Do you like Khoj<br /><br />
+    Are you conducting a similar event in your college and need someone to give a hand in developing the website. <br /><br />
+    Or you simply have an idea for website and think we can help you. Then we Khoj Team are ready to take up the Challenge <br /><br />
+    Or you just wanna say Hi<br/><br />
+    <a class="button" target="_blank" href="/aboutus/contactus"><span>Drop a Mail</span></a>
+</div>

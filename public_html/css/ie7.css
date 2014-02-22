@@ -1,0 +1,16 @@
+.ddsmoothmenu{
+margin-top:10px;
+}
+
+.footerflickrwrap { width:280px;float:left; margin:0;padding:0; margin-left:40px; }
+
+	#footerwrap {
+		padding: 40px 0 30px 46px;
+		}
+
+#contents a.buttonicon span , a.button span {
+    background: transparent url('../images/buttons/bg_button_span.gif') no-repeat top left;
+    display: block;
+    line-height: 14px;
+    padding: 10px 0 8px 18px;
+}

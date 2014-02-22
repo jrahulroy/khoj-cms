@@ -1,0 +1,7 @@
+
+Users - Current Question [currquest], Current Points [currpoints]
+Questions - Question No [questionno], Title [title], Description [desc], Source Code Hints [schint], Imagename [image], Current Points [curr_points], answer
+
+status - userid, currquest, currpoints, banned
+
+hunt - huntid

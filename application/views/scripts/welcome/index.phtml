@@ -1,0 +1,12 @@
+<p>This is an index Action in Welcome</p>
+<table></table>
+<?php foreach ($this->data as $d) {?>
+       <tr>
+           <td><?=$d['filename']?></td>
+           <td><?=$d['decription']?></td>
+           <td><?=$d['downloads']?></td>
+           <td><?=$d['title']?></td>
+           <td><a href="edit/id/<?=$d['link']?>" style="color:blue">Edit</a></td>
+       </tr>
+<?php }?>
+</table>

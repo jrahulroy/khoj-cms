@@ -1,0 +1,15 @@
+<p> <?php echo $this->welcommsg ?> 
+
+    <?php
+    if (isset($this->errorMessage)) {
+
+        echo $this->errorMessage;
+    }
+    echo '</p>';
+    ?>
+
+<div id="stylized" class="myform">
+    <?php echo $this->form; ?>
+</div>
+
+<a href="<?php echo $this->url(array('controller' => 'user', 'action' => 'register')) ?>">New users click here?</a>

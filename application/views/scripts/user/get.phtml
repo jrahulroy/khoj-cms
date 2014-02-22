@@ -1,0 +1,13 @@
+<form action="/student/getprocess" method="POST">
+    <select name="term">
+        <option value="1" >Ist Year</option>
+        <option value="2" >IInd Sem</option>
+        <option value="3" >IIIrd Sem</option>
+        <option value="4" >IVth Sem</option>
+        <option value="5" >Vth Sem</option>
+        <option value="6" >VIth Sem</option>
+        <option value="7" >VIIth Sem</option>        
+    </select>
+    <input type="hidden" value="<?php echo $this->rollno ?>" name="rollno" />
+    <input type="submit"/>
+</form>

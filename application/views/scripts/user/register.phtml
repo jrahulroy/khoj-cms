@@ -1,0 +1,66 @@
+<p> <?php echo $this->welcommsg ?> 
+</p>
+<h2 color="red">
+    <?php
+    if (isset($this->errorMessage)) {
+
+        echo $this->errorMessage;
+    }
+    ?>
+</h2>
+
+<?php if (isset($this->form)) { ?>
+    <p>
+        Register with the valid details. We will be contacting you for any clarifications. If you found the details are misleading, you will be disqualified anytime. Please mention correct details about the Roll Number and College.
+    </p>
+    <p> People who are not College Students are also allowed to compete, but shall not considered as the winners. You can just have an experience of the challenge </p>
+    <div id="stylized" class="myform">
+        <?php
+//$this->form->setAction($this->url());
+        echo $this->form;
+        ?>
+    </div>
+    <?php } ?>
+<!--
+<form action="/" method="POST">
+    <label>Name:</label>
+    <input name="name" type="text" /><br />
+    <fieldset>
+        <label>Personal</label>
+        
+        <label>Email: </label>
+        <input type="email" name="email"  value="<?php echo $this->email; ?>" />
+        <input name="emailchk" type="checkbox" /><br/>
+        
+        <label>Phone Number: </label>
+        <input name="phoneno" type="text" />
+        <input name="phonechk" type="checkbox" /><br/>
+        
+        <label>Facebook Username: </label>
+        <input type="text" name="facebook"  value="<?php echo $this->facebook; ?>"/>
+        <input type="checkbox" name="facebookchk" ><br/>
+        
+        <label>Bio: </label>
+        <input type="text" cols="3" length="10"name="bio" value="<?php echo substr($this->bio, 0, 30); ?>" />
+        
+    
+    </fieldset>
+    <fieldset>
+        <label>Academic</label>
+    <label>Roll Number: </label>
+    <input name="rollno" type="text" /><br/>
+    
+    <label>Branch: </label>
+    <input name="branch" type="text" /><br/>
+    
+    <label>Year: </label>
+    <input name="year" type="text" /><br/>
+    
+    <label>College: </label>
+    <input name="college" type="text" /><br/>
+    </fieldset>
+    
+    <input type="submit">
+</form>
+
+-->

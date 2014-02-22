@@ -1,0 +1,30 @@
+<p> <?php echo $this->welcommsg ?> </p>
+
+<table class="studiotable">
+    <tbody>
+        <tr class="table_heading">
+            <th>Rank</th>
+
+            <th>Name</th>
+            <th>College</th>
+            <th>Level</th>
+            <!--<th>Points</th>-->
+        </tr>
+
+        <?php
+        //var_dump($this->results);
+        $count = 1;
+        foreach ($this->leaders as $leader) {
+            ?>
+            <tr >
+                <td><?php echo $count++ ?></td>
+
+                <td><?php echo $leader['username'] ?></td>
+                <td><?php echo $leader['college'] ?></td>
+                <td><?php echo $leader['currquest'] ?></td>
+                <!--<td><?php echo $leader['currpoints'] ?></td>-->
+            </tr>
+        <?php } ?>
+    </tbody>
+</table>
+
